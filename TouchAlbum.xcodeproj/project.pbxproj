@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8199D1511B3ACE12008EF195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199D1501B3ACE12008EF195 /* main.m */; };
+		8199D1541B3ACE12008EF195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199D1531B3ACE12008EF195 /* AppDelegate.m */; };
+		8199D1571B3ACE12008EF195 /* TouchAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8199D1551B3ACE12008EF195 /* TouchAlbum.xcdatamodeld */; };
+		8199D15A1B3ACE12008EF195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199D1591B3ACE12008EF195 /* ViewController.m */; };
+		8199D15D1B3ACE12008EF195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8199D15B1B3ACE12008EF195 /* Main.storyboard */; };
+		8199D15F1B3ACE12008EF195 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8199D15E1B3ACE12008EF195 /* Images.xcassets */; };
+		8199D1621B3ACE12008EF195 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8199D1601B3ACE12008EF195 /* LaunchScreen.xib */; };
+		8199D16E1B3ACE12008EF195 /* TouchAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199D16D1B3ACE12008EF195 /* TouchAlbumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8199D1681B3ACE12008EF195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8199D1431B3ACE12008EF195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8199D14A1B3ACE12008EF195;
+			remoteInfo = TouchAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8199D14B1B3ACE12008EF195 /* TouchAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8199D14F1B3ACE12008EF195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8199D1501B3ACE12008EF195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8199D1521B3ACE12008EF195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8199D1531B3ACE12008EF195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8199D1561B3ACE12008EF195 /* TouchAlbum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TouchAlbum.xcdatamodel; sourceTree = "<group>"; };
+		8199D1581B3ACE12008EF195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8199D1591B3ACE12008EF195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8199D15C1B3ACE12008EF195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8199D15E1B3ACE12008EF195 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8199D1611B3ACE12008EF195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8199D1671B3ACE12008EF195 /* TouchAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8199D16C1B3ACE12008EF195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8199D16D1B3ACE12008EF195 /* TouchAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchAlbumTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8199D1481B3ACE12008EF195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8199D1641B3ACE12008EF195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8199D1421B3ACE12008EF195 = {
+			isa = PBXGroup;
+			children = (
+				8199D14D1B3ACE12008EF195 /* TouchAlbum */,
+				8199D16A1B3ACE12008EF195 /* TouchAlbumTests */,
+				8199D14C1B3ACE12008EF195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8199D14C1B3ACE12008EF195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8199D14B1B3ACE12008EF195 /* TouchAlbum.app */,
+				8199D1671B3ACE12008EF195 /* TouchAlbumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8199D14D1B3ACE12008EF195 /* TouchAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				8199D1521B3ACE12008EF195 /* AppDelegate.h */,
+				8199D1531B3ACE12008EF195 /* AppDelegate.m */,
+				8199D1581B3ACE12008EF195 /* ViewController.h */,
+				8199D1591B3ACE12008EF195 /* ViewController.m */,
+				8199D15B1B3ACE12008EF195 /* Main.storyboard */,
+				8199D15E1B3ACE12008EF195 /* Images.xcassets */,
+				8199D1601B3ACE12008EF195 /* LaunchScreen.xib */,
+				8199D1551B3ACE12008EF195 /* TouchAlbum.xcdatamodeld */,
+				8199D14E1B3ACE12008EF195 /* Supporting Files */,
+			);
+			path = TouchAlbum;
+			sourceTree = "<group>";
+		};
+		8199D14E1B3ACE12008EF195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8199D14F1B3ACE12008EF195 /* Info.plist */,
+				8199D1501B3ACE12008EF195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8199D16A1B3ACE12008EF195 /* TouchAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				8199D16D1B3ACE12008EF195 /* TouchAlbumTests.m */,
+				8199D16B1B3ACE12008EF195 /* Supporting Files */,
+			);
+			path = TouchAlbumTests;
+			sourceTree = "<group>";
+		};
+		8199D16B1B3ACE12008EF195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8199D16C1B3ACE12008EF195 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8199D14A1B3ACE12008EF195 /* TouchAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8199D1711B3ACE12008EF195 /* Build configuration list for PBXNativeTarget "TouchAlbum" */;
+			buildPhases = (
+				8199D1471B3ACE12008EF195 /* Sources */,
+				8199D1481B3ACE12008EF195 /* Frameworks */,
+				8199D1491B3ACE12008EF195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchAlbum;
+			productName = TouchAlbum;
+			productReference = 8199D14B1B3ACE12008EF195 /* TouchAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8199D1661B3ACE12008EF195 /* TouchAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8199D1741B3ACE12008EF195 /* Build configuration list for PBXNativeTarget "TouchAlbumTests" */;
+			buildPhases = (
+				8199D1631B3ACE12008EF195 /* Sources */,
+				8199D1641B3ACE12008EF195 /* Frameworks */,
+				8199D1651B3ACE12008EF195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8199D1691B3ACE12008EF195 /* PBXTargetDependency */,
+			);
+			name = TouchAlbumTests;
+			productName = TouchAlbumTests;
+			productReference = 8199D1671B3ACE12008EF195 /* TouchAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8199D1431B3ACE12008EF195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "西林咲音";
+				TargetAttributes = {
+					8199D14A1B3ACE12008EF195 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8199D1661B3ACE12008EF195 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8199D14A1B3ACE12008EF195;
+					};
+				};
+			};
+			buildConfigurationList = 8199D1461B3ACE12008EF195 /* Build configuration list for PBXProject "TouchAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8199D1421B3ACE12008EF195;
+			productRefGroup = 8199D14C1B3ACE12008EF195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8199D14A1B3ACE12008EF195 /* TouchAlbum */,
+				8199D1661B3ACE12008EF195 /* TouchAlbumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8199D1491B3ACE12008EF195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199D15D1B3ACE12008EF195 /* Main.storyboard in Resources */,
+				8199D1621B3ACE12008EF195 /* LaunchScreen.xib in Resources */,
+				8199D15F1B3ACE12008EF195 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8199D1651B3ACE12008EF195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8199D1471B3ACE12008EF195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199D1541B3ACE12008EF195 /* AppDelegate.m in Sources */,
+				8199D1511B3ACE12008EF195 /* main.m in Sources */,
+				8199D15A1B3ACE12008EF195 /* ViewController.m in Sources */,
+				8199D1571B3ACE12008EF195 /* TouchAlbum.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8199D1631B3ACE12008EF195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199D16E1B3ACE12008EF195 /* TouchAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8199D1691B3ACE12008EF195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8199D14A1B3ACE12008EF195 /* TouchAlbum */;
+			targetProxy = 8199D1681B3ACE12008EF195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8199D15B1B3ACE12008EF195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8199D15C1B3ACE12008EF195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8199D1601B3ACE12008EF195 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8199D1611B3ACE12008EF195 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8199D16F1B3ACE12008EF195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8199D1701B3ACE12008EF195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8199D1721B3ACE12008EF195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8199D1731B3ACE12008EF195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8199D1751B3ACE12008EF195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchAlbum.app/TouchAlbum";
+			};
+			name = Debug;
+		};
+		8199D1761B3ACE12008EF195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchAlbum.app/TouchAlbum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8199D1461B3ACE12008EF195 /* Build configuration list for PBXProject "TouchAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8199D16F1B3ACE12008EF195 /* Debug */,
+				8199D1701B3ACE12008EF195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8199D1711B3ACE12008EF195 /* Build configuration list for PBXNativeTarget "TouchAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8199D1721B3ACE12008EF195 /* Debug */,
+				8199D1731B3ACE12008EF195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8199D1741B3ACE12008EF195 /* Build configuration list for PBXNativeTarget "TouchAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8199D1751B3ACE12008EF195 /* Debug */,
+				8199D1761B3ACE12008EF195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8199D1551B3ACE12008EF195 /* TouchAlbum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8199D1561B3ACE12008EF195 /* TouchAlbum.xcdatamodel */,
+			);
+			currentVersion = 8199D1561B3ACE12008EF195 /* TouchAlbum.xcdatamodel */;
+			path = TouchAlbum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8199D1431B3ACE12008EF195 /* Project object */;
+}
